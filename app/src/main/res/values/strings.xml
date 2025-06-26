@@ -1,1 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BusMap HCM</string>
+    <string name="station_map">Bản đồ trạm</string>
+    <string name="bus_routes">Tuyến xe buýt</string>
+    <string name="route_info">Thông tin tuyến</string>
+    <string name="schedule">Lịch trình</string>
+    <string name="route_details">Chi tiết tuyến</string>
+    <string name="operating_hours">Giờ hoạt động</string>
+    <string name="frequency">Tần suất</string>
+    <string name="stops">Trạm dừng</string>
+    <string name="route_length">Chiều dài tuyến</string>
+    <string name="fare">Giá vé</string>
+    <string name="search_hint">Tìm kiếm tuyến xe buýt...</string>
+    <string name="back_button_description">Quay lại</string>
+</resources>
