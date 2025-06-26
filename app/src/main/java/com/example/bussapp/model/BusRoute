@@ -1,1 +1,94 @@
+package com.example.bussapp.model;
 
+import java.util.List;
+
+public class BusRoute {
+    private String routeNumber;
+    private String routeName;
+    private String operatingHours;
+    private String frequency;
+    private String routeLength;
+    private String fare;
+    private List<String> stops;
+    private String description;
+
+    public BusRoute() {}
+
+    public BusRoute(String routeNumber, String routeName, String operatingHours,
+                    String frequency, String routeLength, String fare,
+                    List<String> stops, String description) {
+        this.routeNumber = routeNumber;
+        this.routeName = routeName;
+        this.operatingHours = operatingHours;
+        this.frequency = frequency;
+        this.routeLength = routeLength;
+        this.fare = fare;
+        this.stops = stops;
+        this.description = description;
+    }
+
+    // Getters and Setters
+    public String getRouteNumber() {
+        return routeNumber;
+    }
+
+    public void setRouteNumber(String routeNumber) {
+        this.routeNumber = routeNumber;
+    }
+
+    public String getRouteName() {
+        return routeName;
+    }
+
+    public void setRouteName(String routeName) {
+        this.routeName = routeName;
+    }
+
+    public String getOperatingHours() {
+        return operatingHours;
+    }
+
+    public void setOperatingHours(String operatingHours) {
+        this.operatingHours = operatingHours;
+    }
+
+    public String getFrequency() {
+        return frequency;
+    }
+
+    public void setFrequency(String frequency) {
+        this.frequency = frequency;
+    }
+
+    public String getRouteLength() {
+        return routeLength;
+    }
+
+    public void setRouteLength(String routeLength) {
+        this.routeLength = routeLength;
+    }
+
+    public String getFare() {
+        return fare;
+    }
+
+    public void setFare(String fare) {
+        this.fare = fare;
+    }
+
+    public List<String> getStops() {
+        return stops;
+    }
+
+    public void setStops(List<String> stops) {
+        this.stops = stops;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+}
